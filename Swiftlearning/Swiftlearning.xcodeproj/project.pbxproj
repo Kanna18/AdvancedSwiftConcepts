@@ -15,6 +15,9 @@
 		8F1675B3240CC6B600598953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1675B1240CC6B600598953 /* LaunchScreen.storyboard */; };
 		8F1675BE240CC6B600598953 /* SwiftlearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1675BD240CC6B600598953 /* SwiftlearningTests.swift */; };
 		8F1675C9240CC6B600598953 /* SwiftlearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1675C8240CC6B600598953 /* SwiftlearningUITests.swift */; };
+		8F2B45EE240E1E3A0089E16D /* SwiftClasseAndStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2B45ED240E1E3A0089E16D /* SwiftClasseAndStruct.swift */; };
+		8F2B45F0240E20C40089E16D /* Components.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2B45EF240E20C40089E16D /* Components.storyboard */; };
+		8F2B45F2240E21F80089E16D /* LabelsAndButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2B45F1240E21F80089E16D /* LabelsAndButtonsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		8F1675C4240CC6B600598953 /* SwiftlearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftlearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1675C8240CC6B600598953 /* SwiftlearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftlearningUITests.swift; sourceTree = "<group>"; };
 		8F1675CA240CC6B600598953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F2B45ED240E1E3A0089E16D /* SwiftClasseAndStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClasseAndStruct.swift; sourceTree = "<group>"; };
+		8F2B45EF240E20C40089E16D /* Components.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Components.storyboard; sourceTree = "<group>"; };
+		8F2B45F1240E21F80089E16D /* LabelsAndButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsAndButtonsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,8 @@
 				8F1675A6240CC6B300598953 /* AppDelegate.swift */,
 				8F1675A8240CC6B300598953 /* SceneDelegate.swift */,
 				8F1675AA240CC6B300598953 /* ViewController.swift */,
+				8F2B45ED240E1E3A0089E16D /* SwiftClasseAndStruct.swift */,
+				8F2B45F3240E22210089E16D /* CompnentsCode */,
 				8F1675AC240CC6B300598953 /* Main.storyboard */,
 				8F1675AF240CC6B600598953 /* Assets.xcassets */,
 				8F1675B1240CC6B600598953 /* LaunchScreen.storyboard */,
@@ -126,6 +134,15 @@
 				8F1675CA240CC6B600598953 /* Info.plist */,
 			);
 			path = SwiftlearningUITests;
+			sourceTree = "<group>";
+		};
+		8F2B45F3240E22210089E16D /* CompnentsCode */ = {
+			isa = PBXGroup;
+			children = (
+				8F2B45F1240E21F80089E16D /* LabelsAndButtonsViewController.swift */,
+				8F2B45EF240E20C40089E16D /* Components.storyboard */,
+			);
+			path = CompnentsCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +251,7 @@
 			files = (
 				8F1675B3240CC6B600598953 /* LaunchScreen.storyboard in Resources */,
 				8F1675B0240CC6B600598953 /* Assets.xcassets in Resources */,
+				8F2B45F0240E20C40089E16D /* Components.storyboard in Resources */,
 				8F1675AE240CC6B300598953 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F1675AB240CC6B300598953 /* ViewController.swift in Sources */,
+				8F2B45EE240E1E3A0089E16D /* SwiftClasseAndStruct.swift in Sources */,
+				8F2B45F2240E21F80089E16D /* LabelsAndButtonsViewController.swift in Sources */,
 				8F1675A7240CC6B300598953 /* AppDelegate.swift in Sources */,
 				8F1675A9240CC6B300598953 /* SceneDelegate.swift in Sources */,
 			);
